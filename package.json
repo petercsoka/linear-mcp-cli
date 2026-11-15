@@ -1,0 +1,17 @@
+{
+  "name": "linear-mcp-cli",
+  "version": "1.0.0",
+  "description": "The linear CLI (list, start and create Linear issues) driven by Linear's MCP server instead of an API key",
+  "type": "module",
+  "bin": {
+    "linear": "bin/linear.js"
+  },
+  "files": ["bin", "src", "README.md"],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "license": "ISC"
+}
